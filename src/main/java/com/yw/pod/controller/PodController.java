@@ -8,6 +8,6 @@ public class PodController {
 
     @GetMapping("/test")
     public String test() {
-        return "Hello World!";
+        return "Hello World! 개발 브렌치 입니다.";
     }
 }
